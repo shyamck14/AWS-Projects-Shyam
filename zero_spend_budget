@@ -1,0 +1,30 @@
+Zero-Spend Budget 
+
+Step-by-Step: Creating a Zero-Spend Budget Template
+
+Log in to AWS Management Console:
+Sign in to your account with your Root User credentials.
+
+Navigate to AWS Budgets:
+Open the Billing and Cost Management console.
+In the left menu under Budgets and Planning, click Budgets.
+
+Select the Template Option:
+Click the Create budget button.
+Under Budget setup, select Use a template (simplified).
+
+Choose "Zero spend budget":
+Under the Templates section, select Zero spend budget.
+This pre-configured template tracks all AWS services and triggers an alert if your actual spend exceeds $0.01.
+
+Configure Notification Email:
+Enter a descriptive Budget name (or keep the default provided name).
+Under Email recipients, type the primary email address where you want to receive alerts.
+
+Create Budget:
+Click Create budget at the bottom of the page to finalize.
+
+Why Use This Template?
+Zero Configuration Needed: Unlike custom cost budgets, you do not need to manually calculate thresholds, pick time periods, or select scope filters.
+
+Instant Protection: You will receive an immediate email notification as soon as any unattached resource (such as an idle NAT Gateway, unattached Elastic IP or unexpected storage charge) incurs even a fraction of a cent.
